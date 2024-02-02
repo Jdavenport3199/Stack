@@ -1,0 +1,26 @@
+@media (min-width: 1px) {
+    .form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .formIcon {
+        margin-bottom: 1rem;
+        font-size: large;
+    }
+
+    .linkButton {
+        border: 1px solid #171d1c40;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1.5rem;
+        background: white;
+    }
+
+    .linkText {
+        color: #2667ff;
+        padding-left: 0.4rem;
+    }
+}
