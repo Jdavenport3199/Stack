@@ -19,15 +19,18 @@ export default function Home() {
         <div
           className="container"
           style={{
-            marginTop: "14rem",
+            marginTop: "12rem",
+            width: "85%",
           }}
         >
           <div className={styles.scrollbar}></div>
           <div className={styles.content}>
             <div className={styles.titleHolder}>
               <div>
-                <h1 style={{ lineHeight: "1.4" }}>
-                  Visualize Tech Stacks with Impact.
+                <h1 style={{ lineHeight: "1.2" }}>
+                  Visualize Tech
+                  <br />
+                  Stacks with Impact
                 </h1>
                 <hr />
                 <h2>
@@ -36,7 +39,10 @@ export default function Home() {
                 </h2>
                 <div className={styles.signupHolder}>
                   <Link className={styles.buttonLarge} href="/profile">
-                    Sign Up
+                    Get Started
+                  </Link>
+                  <Link className={styles.buttonLargeWhite} href="/profile">
+                    Explore Stacks
                   </Link>
                 </div>
               </div>
@@ -157,7 +163,10 @@ export default function Home() {
                 <div className={styles.leftBottom}></div>
                 <div className={styles.rightTop}></div>
                 <div className={styles.rightBottom}></div>
-                <div className={styles.hoverContainer}>
+                <div
+                  className={styles.hoverContainer}
+                  style={{ paddingBlock: "4rem" }}
+                >
                   <div className={styles.exploreContainer}>
                     <Image
                       src={"/image.png"}
@@ -209,7 +218,10 @@ export default function Home() {
                 <div className={styles.leftBottom}></div>
                 <div className={styles.rightTop}></div>
                 <div className={styles.rightBottom}></div>
-                <div className={styles.hoverContainer}>
+                <div
+                  className={styles.hoverContainer}
+                  style={{ paddingBlock: "4rem" }}
+                >
                   <div className={styles.exploreContainer}>
                     <Image
                       src={"/image.png"}
