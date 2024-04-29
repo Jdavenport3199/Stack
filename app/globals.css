@@ -98,7 +98,7 @@
 
   a:hover,
   .btn-text:hover {
-    opacity: 0.6;
+    opacity: 0.4;
     transition: 150ms linear;
   }
 
@@ -116,48 +116,45 @@
     top: 0rem;
     transition: 0.3s;
     width: 100%;
-    padding: 1rem;
-    height: 4rem;
-    background: #f5f5f540;
+    padding: 2rem;
+    height: 6rem;
+    /* background: #f5f5f540;
     border-bottom: 1px solid #171d1c20;
     backdrop-filter: blur(10px) brightness(1) contrast(1) saturate(1.4);
     -moz-backdrop-filter: blur(10px) brightness(1) contrast(1) saturate(1.4);
-    -webkit-backdrop-filter: blur(10px) brightness(1) contrast(1) saturate(1.4);
+    -webkit-backdrop-filter: blur(10px) brightness(1) contrast(1) saturate(1.4); */
     z-index: 3;
     animation: scroll;
     animation-timeline: scroll();
+
+    a {
+      font-size: clamp(16px, 4vw, 18px);
+      padding: 0rem;
+    }
   }
 
-  .navLeft {
-    width: 25%;
-    text-align: left;
-  }
-
-  .navMid {
-    width: 50%;
-    text-align: center;
-  }
-
-  .navRight {
-    width: 25%;
-    text-align: right;
+   .navLeft {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 4rem;
   }
 
   @keyframes scroll {
     10% {
-      top: -3.25rem;
+      top: -6rem;
     }
 
     100% {
-      top: -3.25rem;
+      top: -6rem;
     }
   }
 
   .container {
     width: 100%;
     padding: 1rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
   }
 
   .content {

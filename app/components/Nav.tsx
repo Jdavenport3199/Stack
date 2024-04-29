@@ -5,13 +5,11 @@ export default function Nav() {
   return (
     <div className="nav">
       <div className="navLeft">
-        <Link href="/explore">Explore</Link>
-        <Link href="/create">Create</Link>
-      </div>
-      <div className="navMid">
         <Link href="/">
           <span>Stack</span>
         </Link>
+        <Link href="/explore">Explore</Link>
+        <Link href="/create">Create</Link>
       </div>
       <div className="navRight">
         <Link href="/profile" style={{ padding: "0rem" }}>

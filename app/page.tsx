@@ -19,11 +19,11 @@ export default function Home() {
         <div
           className="container"
           style={{
-            marginTop: "12rem",
+            marginTop: "10rem",
             width: "85%",
           }}
         >
-          <div className={styles.scrollbar}></div>
+          {/* <div className={styles.scrollbar}></div> */}
           <div className={styles.content}>
             <div className={styles.titleHolder}>
               <div>
@@ -32,6 +32,7 @@ export default function Home() {
                   <br />
                   Stacks with Impact
                 </h1>
+                <hr />
                 <hr />
                 <h2>
                   Stack is a platform designed to help developers showcase their
@@ -48,7 +49,7 @@ export default function Home() {
               </div>
               <Image
                 src={"/test.svg"}
-                width="400"
+                width="600"
                 height="0"
                 alt="profile-img"
                 style={{
