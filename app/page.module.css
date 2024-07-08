@@ -1,9 +1,6 @@
 @media (min-width: 1px) {
     .content {
         border-radius: 0px;
-        /* padding: 1rem; */
-        /* margin-top: 0.5rem;
-        margin-bottom: 0.5rem; */
         background: none;
         border: 1px solid transparent;
     }
@@ -40,13 +37,7 @@
     }
 
     .logoHolder {
-        margin-top: 7rem;
-        display: flex;
-        justify-content: space-between;
-        gap: 1rem;
-        margin-bottom: 10rem;
-        flex-wrap: wrap;
-        align-items: baseline;
+        display: none;
     }
 
     .heading {
@@ -225,10 +216,31 @@
         background: #2667ff20;
         transition: 150ms linear;
     }
+
+    .splashImg {
+        display: none
+    }
 }
 
-/* @media (min-width: 799px) {
-    .content {
-        padding: 2rem;
+@media (min-width: 699px) {
+    .titleHolder {
+        padding-bottom: 6rem;
     }
-} */
+
+    .logoHolder {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+        align-items: baseline;
+        position: absolute;
+        bottom: 4rem;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1799px) {
+    .splashImg {
+        display: block
+    }
+}

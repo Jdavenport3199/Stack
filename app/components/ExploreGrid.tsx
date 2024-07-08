@@ -77,7 +77,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -158,7 +158,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -237,7 +237,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -316,7 +316,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -395,7 +395,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -474,7 +474,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -553,7 +553,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -632,7 +632,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -711,7 +711,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -790,7 +790,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -869,7 +869,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"
@@ -948,7 +948,7 @@ export default function ExploreGrid() {
                   />
                   <Image
                     className={styles.techImage}
-                    src={"/aws.svg"}
+                    src={"/AWS.svg"}
                     width="30"
                     height="30"
                     alt="profile-img"

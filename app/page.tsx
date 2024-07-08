@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Nav from "./components/Nav";
 import StackHeader from "./components/StackHeader";
+import { relative } from "path";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         style={{
           alignItems: "center",
           flexDirection: "column",
-          marginBottom: "4rem",
+          marginBottom: "12rem",
         }}
       >
         <Nav />
@@ -19,12 +20,22 @@ export default function Home() {
         <div
           className="container"
           style={{
-            marginTop: "10rem",
-            width: "85%",
+            margin: "0rem",
           }}
         >
           {/* <div className={styles.scrollbar}></div> */}
-          <div className={styles.content}>
+          <div
+            className={styles.content}
+            style={{
+              minHeight: "100vh",
+              background: "none",
+              border: "1px solid transparent",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              position: "relative",
+            }}
+          >
             <div className={styles.titleHolder}>
               <div>
                 <h1 style={{ lineHeight: "1.2" }}>
@@ -33,8 +44,7 @@ export default function Home() {
                   Stacks with Impact
                 </h1>
                 <hr />
-                <hr />
-                <h2>
+                <h2 style={{ color: "#171d1cdd" }}>
                   Stack is a platform designed to help developers showcase their
                   tech stacks.
                 </h2>
@@ -48,8 +58,9 @@ export default function Home() {
                 </div>
               </div>
               <Image
+                className={styles.splashImg}
                 src={"/test.svg"}
-                width="600"
+                width="400"
                 height="0"
                 alt="profile-img"
                 style={{
@@ -61,13 +72,13 @@ export default function Home() {
 
             <div className={styles.logoHolder}>
               <Image
-                src={"/github-text.svg"}
+                src={"/nextjs-text.svg"}
                 width="150"
                 height="100"
                 alt="profile-img"
               />
               <Image
-                src={"/nextjs-text.svg"}
+                src={"/github-text.svg"}
                 width="150"
                 height="100"
                 alt="profile-img"
@@ -85,7 +96,9 @@ export default function Home() {
                 alt="profile-img"
               />
             </div>
+          </div>
 
+          <div className={styles.content}>
             <div className={styles.fade}>
               <div className={styles.hover}>
                 <div className={styles.leftTop}></div>
@@ -109,7 +122,7 @@ export default function Home() {
                 <i className="fa-brands fa-github"></i>&nbsp;GitHub
               </span>
               <hr />
-              <h2>
+              <h2 style={{ color: "#171d1cdd" }}>
                 Stack was specifically designed with GitHub integration in mind,
                 so you can quickly showcase your GitHub projects and get back to
                 programming.
@@ -143,7 +156,7 @@ export default function Home() {
                 <i className="fa-regular fa-face-smile"></i>&nbsp;Community
               </span>
               <hr />
-              <h2>
+              <h2 style={{ color: "#171d1cdd" }}>
                 Connect with other developers and explore popular Stacks from
                 the community.
               </h2>
@@ -313,7 +326,7 @@ export default function Home() {
                 &nbsp;Stack
               </span>
               <hr />
-              <h2>
+              <h2 style={{ color: "#171d1cdd" }}>
                 GitHub integration allows for a high standard for each and every
                 Stack created.
                 <br />
